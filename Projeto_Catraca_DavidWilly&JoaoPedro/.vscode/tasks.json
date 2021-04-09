@@ -1,0 +1,17 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CCSC",
+            "type": "shell",
+            "command": "cd 'C:\\Program Files (x86)\\PICC'; CCSC +FM +ES +EA -J +Y9 -T -A -M -L +O8hex +P3 -D -Z I='Drivers;Devices' '${file}'; sleep(2); cat '${fileDirname}\\${fileBasenameNoExtension}.err'",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

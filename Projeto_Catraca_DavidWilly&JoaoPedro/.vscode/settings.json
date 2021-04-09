@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "registro_eeprom.c": "cpp",
+        "mod_lcd.c": "cpp",
+        "kbd_guitales.c": "cpp",
+        "projeto_catraca_david.h": "c"
+    }
+}
